@@ -50,7 +50,6 @@
     }
   });
 
-  // Back to top button
   $(window).scroll(function () {
     if ($(this).scrollTop() > 300) {
       $(".back-to-top").fadeIn("slow");
@@ -58,9 +57,10 @@
       $(".back-to-top").fadeOut("slow");
     }
   });
-  $(".back-to-top").click(function () {
-    $("html, body").animate({ scrollTop: 0 }, 1500, "easeInOutExpo");
-    return false;
+
+  $(".back-to-top").click(function (e) {
+    e.preventDefault();
+    $("html, body").animate({ scrollTop: 0 }, 600); // Smooth scroll, no delay
   });
 
   // Facts counter
@@ -83,7 +83,7 @@
     ],
   });
 
-  // Testimonials carousel
+  // client carousel
   $(".client-carousel").owlCarousel({
     loop: true,
     margin: 30,
@@ -91,7 +91,11 @@
     autoplayTimeout: 2000,
     smartSpeed: 600,
     dots: false,
-    nav: false,
+    nav: true,
+    navText: [
+      '<i class="bi bi-chevron-left"></i>',
+      '<i class="bi bi-chevron-right"></i>',
+    ],
     responsive: {
       0: {
         items: 2,

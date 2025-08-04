@@ -482,3 +482,46 @@
   max-width: 100%;
   object-fit: contain;
 }
+
+#clients .owl-carousel .owl-nav {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+  pointer-events: none;
+  z-index: 10;
+}
+
+#clients .owl-carousel .owl-nav button.owl-prev,
+#clients .owl-carousel .owl-nav button.owl-next {
+  pointer-events: auto;
+  background: #ffffff;
+  border: 1px solid #ccc;
+  color: #000;
+  font-size: 20px;
+  padding: 5px 12px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#clients .owl-carousel .owl-nav .owl-next,
+#clients .owl-carousel .owl-nav .owl-prev {
+  z-index: 999;
+}
+
+#clients .owl-carousel .owl-nav button.owl-prev {
+  margin-left: -15px;
+}
+
+#clients .owl-carousel .owl-nav button.owl-next {
+  margin-right: -15px;
+}
+
+#clients .owl-carousel .owl-nav button:hover {
+  background-color: #0d6efd;
+  color: #fff;
+  border-color: #0d6efd;
+}
