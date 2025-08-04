@@ -40,7 +40,7 @@
       </div>
     </div>
     <nav
-      class="navbar navbar-expand-lg bg-white navbar-light shadow border-top border-5 border-primary sticky-top p-0"
+      class="navbar navbar-expand-xl bg-white navbar-light shadow border-top border-5 border-primary sticky-top p-0"
     >
       <!-- Logo -->
       <a href="index.html" class="navbar-brand px-4">
@@ -79,26 +79,41 @@
       </div>
     </nav>
 
-    <div class="container-fluid p-0 pb-5">
+    <div class="container-fluid p-0 pb-lg-5">
       <div class="owl-carousel header-carousel position-relative mb-5">
         <div class="owl-carousel-item position-relative">
-          <img class="img-fluid" src="img/carousel-1.jpg" alt="carousel-1" />
+          <!-- Desktop Image -->
+          <img
+            class="img-fluid w-100 d-none d-xl-block"
+            src="img/carousel-desktop.jpg"
+            alt="carousel-desktop"
+          />
+
+          <!-- Mobile/Tablet Image -->
+          <img
+            class="img-fluid w-100 d-block d-xl-none"
+            src="img/carousel-mobile.jpg"
+            alt="carousel-mobile"
+          />
+
           <div
             class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
             style="background: rgba(6, 3, 21, 0.5)"
           >
             <div class="container">
               <div class="row justify-content-start">
-                <div class="col-10 col-lg-8">
+                <div class="col-12 col-lg-8">
                   <h5
                     class="text-white text-uppercase mb-3 animated slideInDown"
                   >
                     Connecting Global Trade with Excellence
                   </h5>
-                  <h1 class="display-3 text-white animated slideInDown mb-4">
+                  <h1
+                    class="display-5 display-md-3 text-white animated slideInDown mb-4"
+                  >
                     Your trusted partner in importing and exporting high-quality
                     <span class="text-primary"
-                      >scrap metals, agricultural produce, garments, fabrics,
+                      >Scrap Metals, Agricultural Produce, Garments, Fabrics,
                       and FMCG products.</span
                     >
                   </h1>
@@ -115,7 +130,7 @@
       </div>
     </div>
     <div class="container-fluid overflow-hidden py-5 px-lg-0" id="about-us">
-      <div class="container about py-5 px-lg-0">
+      <div class="container about py-lg-5 px-lg-0">
         <div class="row g-5 mx-lg-0">
           <div
             class="col-lg-6 ps-lg-0 wow fadeInLeft"
@@ -134,9 +149,10 @@
           <div class="col-lg-6 about-text wow fadeInUp" data-wow-delay="0.3s">
             <h6 class="text-secondary text-uppercase mb-3">About Us</h6>
             <h1 class="mb-5">
-              Over a decade of experience in global trade, serving partners
-              across Asia, the Middle East, Europe, and Africa. We deliver
-              integrity, transparency, and quality with every shipment.
+              With over a decade of experience in global trade, we serve
+              partners across Asia, the Middle East, Europe, and
+              Africa—delivering integrity, transparency, and quality with every
+              shipment.
             </h1>
             <p class="mb-5"></p>
             <h5>Mission:</h5>
@@ -174,7 +190,7 @@
         </div>
       </div>
     </div>
-    <div class="container-xxl py-5" id="why-xenia">
+    <div class="container-xxl py-lg-5" id="why-xenia">
       <div class="container py-5">
         <div class="row g-5 align-items-stretch">
           <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -207,29 +223,37 @@
           </div>
           <div class="col-lg-6">
             <div class="row align-items-stretch h-100">
-              <div class="col-sm-6 bg-primary d-flex align-items-center">
-                <div class="p-4 wow fadeIn" data-wow-delay="0.3s">
+              <div
+                class="col-sm-6 mb-3 mb-md-0 shadow-md bg-primary d-flex align-items-center"
+              >
+                <div class="p-4 w-100 wow fadeIn" data-wow-delay="0.3s">
                   <h2 class="text-white text-center">100% Quality Assurance</h2>
                 </div>
               </div>
-              <div class="col-sm-6 bg-secondary d-flex align-items-center">
-                <div class="p-4 wow fadeIn" data-wow-delay="0.5s">
+              <div
+                class="col-sm-6 mb-3 mb-md-0 shadow-md bg-secondary d-flex align-items-center"
+              >
+                <div class="p-4 w-100 wow fadeIn" data-wow-delay="0.5s">
                   <h2 class="text-white text-center">
                     Global Network of Reliable Suppliers
                   </h2>
                 </div>
               </div>
-              <div class="col-sm-6 bg-success d-flex align-items-center">
-                <div class="p-4 wow fadeIn" data-wow-delay="0.7s">
+              <div
+                class="col-sm-6 mb-3 mb-md-0 shadow-md bg-success d-flex align-items-center"
+              >
+                <div class="p-4 w-100 wow fadeIn" data-wow-delay="0.7s">
                   <h2 class="text-white text-center">
                     Timely Delivery, Every Time
                   </h2>
                 </div>
               </div>
-              <div class="col-sm-6 bg-dark d-flex align-items-center">
-                <div class="p-4 wow fadeIn" data-wow-delay="0.9s">
+              <div
+                class="col-sm-6 mb-3 mb-md-0 shadow-md bg-dark d-flex align-items-center"
+              >
+                <div class="p-4 w-100 wow fadeIn" data-wow-delay="0.9s">
                   <h2 class="text-white text-center">
-                    Transparent Documentation & Compliance
+                    Transparent Docs & Compliance
                   </h2>
                 </div>
               </div>
@@ -238,20 +262,21 @@
         </div>
       </div>
     </div>
-    <div class="container-xxl py-5" id="offerings">
+    <div class="container-xxl py-lg-5" id="offerings">
       <div class="container py-5">
         <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
           <h6 class="text-secondary text-uppercase">Key Offerings</h6>
           <h1 class="mb-5">Explore Our Products</h1>
         </div>
         <div class="row g-4">
+          <!-- Scrap Metals -->
           <div class="col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-            <div class="service-item p-4">
+            <div class="service-item h-100 p-4">
               <div class="overflow-hidden mb-4">
                 <img
                   class="img-fluid"
                   src="img/service-1.jpg"
-                  alt="service-1"
+                  alt="Scrap Metals"
                 />
               </div>
               <div class="card-content">
@@ -262,16 +287,32 @@
                   <p>Brass Scrap (Yellow Brass, Honey, Ebony)</p>
                   <p>Copper Scrap (Millberry, Berry, Birch)</p>
                 </div>
+                <h6 class="text-muted fw-bold mt-3">Sourced From:</h6>
+                <div class="d-flex flex-wrap gap-2">
+                  <span class="badge bg-light border text-dark">🇮🇶 Iraq</span>
+                  <span class="badge bg-light border text-dark"
+                    >🇩🇪 Germany</span
+                  >
+                  <span class="badge bg-light border text-dark"
+                    >🇲🇾 Malaysia</span
+                  >
+                  <span class="badge bg-light border text-dark"
+                    >🇿🇦 South Africa</span
+                  >
+                  <span class="badge bg-light border text-dark">🇦🇪 UAE</span>
+                </div>
               </div>
             </div>
           </div>
+
+          <!-- Agricultural Produce -->
           <div class="col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-            <div class="service-item p-4">
+            <div class="service-item h-100 p-4">
               <div class="overflow-hidden mb-4">
                 <img
                   class="img-fluid"
                   src="img/service-2.jpg"
-                  alt="service-2"
+                  alt="Agricultural Produce"
                 />
               </div>
               <div class="card-content">
@@ -282,16 +323,37 @@
                   <p>Spices (Turmeric, Red Chili, Black Pepper)</p>
                   <p>Organic Agro Commodities (On Demand)</p>
                 </div>
+                <h6 class="text-muted fw-bold mt-3">Sourced From:</h6>
+                <div class="d-flex flex-wrap gap-2">
+                  <span class="badge bg-light border text-dark">🇮🇳 India</span>
+                  <span class="badge bg-light border text-dark">🇮🇷 Iran</span>
+                  <span class="badge bg-light border text-dark">🇪🇬 Egypt</span>
+                  <span class="badge bg-light border text-dark">🇺🇸 USA</span>
+                  <span class="badge bg-light border text-dark"
+                    >🇿🇦 South Africa</span
+                  >
+                  <span class="badge bg-light border text-dark">🇪🇸 Spain</span>
+                  <span class="badge bg-light border text-dark">🇮🇹 Italy</span>
+                  <span class="badge bg-light border text-dark">🇬🇷 Greece</span>
+                  <span class="badge bg-light border text-dark">🇵🇱 Poland</span>
+                  <span class="badge bg-light border text-dark"
+                    >🇳🇿 New Zealand</span
+                  >
+                  <span class="badge bg-light border text-dark">🇷🇸 Serbia</span>
+                  <span class="badge bg-light border text-dark">🇹🇷 Turkey</span>
+                </div>
               </div>
             </div>
           </div>
+
+          <!-- Fabrics & Garments -->
           <div class="col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-            <div class="service-item p-4">
+            <div class="service-item h-100 p-4">
               <div class="overflow-hidden mb-4">
                 <img
                   class="img-fluid"
                   src="img/service-3.jpg"
-                  alt="service-3"
+                  alt="Fabrics & Garments"
                 />
               </div>
               <div class="card-content">
@@ -302,16 +364,20 @@
                   <p>Home Textiles (Bedsheets, Curtains, Towels)</p>
                   <p>Custom Orders Available</p>
                 </div>
+                <h6 class="text-muted fw-bold mt-3">Manufactured In:</h6>
+                <span class="badge bg-light border text-dark">🇮🇳 India</span>
               </div>
             </div>
           </div>
+
+          <!-- FMCG Products -->
           <div class="col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-            <div class="service-item p-4">
+            <div class="service-item h-100 p-4">
               <div class="overflow-hidden mb-4">
                 <img
                   class="img-fluid"
                   src="img/service-4.jpg"
-                  alt="service-4"
+                  alt="FMCG Products"
                 />
               </div>
               <div class="card-content">
@@ -322,13 +388,17 @@
                   <p>Cleaning Products</p>
                   <p>Personal Care Items</p>
                 </div>
+                <!-- Optional -->
+                <h6 class="text-muted fw-bold mt-3">Distributed From:</h6>
+                <span class="badge bg-light border text-dark">🇮🇳 India</span>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="container-fluid overflow-hidden py-5 px-lg-0" id="services">
+
+    <div class="container-fluid overflow-hidden py-lg-5 px-lg-0" id="services">
       <div class="container feature py-5 px-lg-0">
         <div class="row g-5 mx-lg-0">
           <div class="col-lg-6 feature-text wow fadeInUp" data-wow-delay="0.1s">
@@ -388,7 +458,7 @@
         </div>
       </div>
     </div>
-    <div class="container-xxl py-5" id="quote">
+    <div class="container-xxl py-lg-5" id="quote">
       <div class="container py-5">
         <div class="row g-5 align-items-center">
           <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
@@ -404,7 +474,7 @@
             <div class="d-flex align-items-center">
               <div class="ps-4">
                 <h6>Call for any query!</h6>
-                <h3 class="text-primary m-0">+012 345 6789</h3>
+                <h3 class="text-primary m-0">+971 56 234 7779</h3>
               </div>
             </div>
           </div>
@@ -494,7 +564,7 @@
         </div>
       </div>
     </div>
-    <div class="container-xxl py-5" id="team">
+    <div class="container-xxl py-lg-5" id="team">
       <div class="container py-5">
         <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
           <h6 class="text-secondary text-uppercase">Our Team</h6>
@@ -553,90 +623,105 @@
       </div>
     </div>
     <div
-      class="container-xxl py-5 wow fadeInUp"
+      class="container-xxl py-lg-5 wow fadeInUp"
       data-wow-delay="0.1s"
       id="testimonials"
     >
       <div class="container py-5">
         <div class="text-center">
-          <h6 class="text-secondary text-uppercase">Testimonial</h6>
-          <h1 class="mb-0">Our Clients Say!</h1>
+          <h1 class="mb-0">Our Clients</h1>
         </div>
         <div
-          class="owl-carousel testimonial-carousel wow fadeInUp"
+          class="owl-carousel wow fadeInUp client-carousel my-5"
           data-wow-delay="0.1s"
         >
-          <div class="testimonial-item p-4 my-5">
-            <div class="d-flex align-items-end mb-4">
+          <div class="text-center p-3">
+            <div
+              class="client-logo-box d-flex justify-content-center align-items-center"
+            >
               <img
-                class="img-fluid flex-shrink-0"
-                src="img/testimonial-1.jpg"
-                style="width: 80px; height: 80px"
-                alt="testimonial-1"
+                src="img/clients/client1.png"
+                alt="Client 1"
+                class="img-fluid"
               />
-              <div class="ms-4">
-                <h5 class="mb-1">Client Name</h5>
-                <p class="m-0">Profession</p>
-              </div>
             </div>
-            <p class="mb-0">
-              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam
-              amet diam et eos. Clita erat ipsum et lorem et sit.
-            </p>
           </div>
-          <div class="testimonial-item p-4 my-5">
-            <div class="d-flex align-items-end mb-4">
+          <div class="text-center p-3">
+            <div
+              class="client-logo-box d-flex justify-content-center align-items-center"
+            >
               <img
-                class="img-fluid flex-shrink-0"
-                src="img/testimonial-2.jpg"
-                style="width: 80px; height: 80px"
-                alt="testimonial-2"
+                src="img/clients/client2.png"
+                alt="Client 2"
+                class="img-fluid"
               />
-              <div class="ms-4">
-                <h5 class="mb-1">Client Name</h5>
-                <p class="m-0">Profession</p>
-              </div>
             </div>
-            <p class="mb-0">
-              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam
-              amet diam et eos. Clita erat ipsum et lorem et sit.
-            </p>
           </div>
-          <div class="testimonial-item p-4 my-5">
-            <div class="d-flex align-items-end mb-4">
+          <div class="text-center p-3">
+            <div
+              class="client-logo-box d-flex justify-content-center align-items-center"
+            >
               <img
-                class="img-fluid flex-shrink-0"
-                src="img/testimonial-3.jpg"
-                style="width: 80px; height: 80px"
-                alt="testimonial-3"
+                src="img/clients/client3.png"
+                alt="Client 3"
+                class="img-fluid"
               />
-              <div class="ms-4">
-                <h5 class="mb-1">Client Name</h5>
-                <p class="m-0">Profession</p>
-              </div>
             </div>
-            <p class="mb-0">
-              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam
-              amet diam et eos. Clita erat ipsum et lorem et sit.
-            </p>
           </div>
-          <div class="testimonial-item p-4 my-5">
-            <div class="d-flex align-items-end mb-4">
+          <div class="text-center p-3">
+            <div
+              class="client-logo-box d-flex justify-content-center align-items-center"
+            >
               <img
-                class="img-fluid flex-shrink-0"
-                src="img/testimonial-4.jpg"
-                style="width: 80px; height: 80px"
-                alt="testimonial-4"
+                src="img/clients/client4.png"
+                alt="Client 4"
+                class="img-fluid"
               />
-              <div class="ms-4">
-                <h5 class="mb-1">Client Name</h5>
-                <p class="m-0">Profession</p>
-              </div>
             </div>
-            <p class="mb-0">
-              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam
-              amet diam et eos. Clita erat ipsum et lorem et sit.
-            </p>
+          </div>
+          <div class="text-center p-3">
+            <div
+              class="client-logo-box d-flex justify-content-center align-items-center"
+            >
+              <img
+                src="img/clients/client5.png"
+                alt="Client 5"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+          <div class="text-center p-3">
+            <div
+              class="client-logo-box d-flex justify-content-center align-items-center"
+            >
+              <img
+                src="img/clients/client6.png"
+                alt="Client 6"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+          <div class="text-center p-3">
+            <div
+              class="client-logo-box d-flex justify-content-center align-items-center"
+            >
+              <img
+                src="img/clients/client7.png"
+                alt="Client 7"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+          <div class="text-center p-3">
+            <div
+              class="client-logo-box d-flex justify-content-center align-items-center"
+            >
+              <img
+                src="img/clients/client8.png"
+                alt="Client 8"
+                class="img-fluid"
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -648,27 +733,13 @@
     >
       <div class="container py-5">
         <div class="row g-5">
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-4 col-md-6">
             <h4 class="text-light mb-4">Address</h4>
-            <p class="mb-2">123 Street, New York, USA</p>
+            <p class="mb-2">Etihad Airways Centre 5th Floor, Abu Dhabi, UAE</p>
             <p class="mb-2">+971 56 234 7779</p>
             <p class="mb-2">deepak@xenia.co</p>
-            <div class="d-flex pt-2">
-              <a class="btn btn-outline-light btn-social" href=""></a>
-              <a class="btn btn-outline-light btn-social" href=""></a>
-              <a class="btn btn-outline-light btn-social" href=""></a>
-              <a class="btn btn-outline-light btn-social" href=""></a>
-            </div>
           </div>
-          <div class="col-lg-3 col-md-6">
-            <h4 class="text-light mb-4">Services</h4>
-            <a class="btn btn-link" href="">Air Freight</a>
-            <a class="btn btn-link" href="">Sea Freight</a>
-            <a class="btn btn-link" href="">Road Freight</a>
-            <a class="btn btn-link" href="">Logistic Solutions</a>
-            <a class="btn btn-link" href="">Industry solutions</a>
-          </div>
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-4 col-md-6">
             <h4 class="text-light mb-4">Quick Links</h4>
             <a class="btn btn-link" href="">About Us</a>
             <a class="btn btn-link" href="">Contact Us</a>
@@ -676,21 +747,29 @@
             <a class="btn btn-link" href="">Terms & Condition</a>
             <a class="btn btn-link" href="">Support</a>
           </div>
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-4 col-md-6">
             <h4 class="text-light mb-4">Newsletter</h4>
-            <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+            <p>
+              Get exclusive updates on product availability, market trends, and
+              global sourcing opportunities delivered directly to your inbox.
+            </p>
             <div class="position-relative mx-auto" style="max-width: 400px">
               <input
+                id="newsletterEmail"
                 class="form-control border-0 w-100 py-3 ps-4 pe-5"
                 type="text"
                 placeholder="Your email"
               />
               <button
+                id="newsletterBtn"
                 type="button"
                 class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
               >
                 SignUp
               </button>
+            </div>
+            <div id="newsletterError" class="text-danger small d-none mt-1">
+              Please enter a valid email address.
             </div>
           </div>
         </div>
@@ -723,68 +802,143 @@
     <script src="lib/counterup/counterup.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
-    <script>
-      const form = document.getElementById("quoteForm");
+    <!-- Firebase SDKs via CDN -->
+    <script type="module">
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-analytics.js";
+      import {
+        getFirestore,
+        collection,
+        addDoc,
+      } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
 
-      form.addEventListener("submit", function (e) {
-        e.preventDefault();
+      // Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyCRL19u3yoIGJuJruhLrWH3oenJlL1oKEY",
+        authDomain: "xeniallc-429d9.firebaseapp.com",
+        projectId: "xeniallc-429d9",
+        storageBucket: "xeniallc-429d9.firebasestorage.app",
+        messagingSenderId: "653149247349",
+        appId: "1:653149247349:web:bc9b204083727a04aaa53c",
+        measurementId: "G-HS5SFDSF6H",
+      };
 
-        let hasError = false;
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+      const db = getFirestore(app);
 
-        const name = document.getElementById("name");
-        const email = document.getElementById("email");
-        const mobile = document.getElementById("mobile");
-        const message = document.getElementById("message");
+      // Wait until DOM is fully loaded
+      document.addEventListener("DOMContentLoaded", () => {
+        // Contact form handling
+        const form = document.getElementById("quoteForm");
 
-        const namePattern = /^[a-zA-Z\s]{3,50}$/;
-        const mobilePattern = /^\d{10,15}$/;
-        const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (form) {
+          form.addEventListener("submit", async function (e) {
+            e.preventDefault();
 
-        // Name validation
-        if (!namePattern.test(name.value.trim())) {
-          document.getElementById("nameError").classList.remove("d-none");
-          hasError = true;
-        } else {
-          document.getElementById("nameError").classList.add("d-none");
+            let hasError = false;
+
+            const name = document.getElementById("name");
+            const email = document.getElementById("email");
+            const mobile = document.getElementById("mobile");
+            const message = document.getElementById("message");
+
+            const namePattern = /^[a-zA-Z\s]{3,50}$/;
+            const mobilePattern = /^\d{10,15}$/;
+            const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+            // Name validation
+            if (!namePattern.test(name.value.trim())) {
+              document.getElementById("nameError").classList.remove("d-none");
+              hasError = true;
+            } else {
+              document.getElementById("nameError").classList.add("d-none");
+            }
+
+            // Email validation
+            if (!emailPattern.test(email.value.trim())) {
+              document.getElementById("emailError").classList.remove("d-none");
+              hasError = true;
+            } else {
+              document.getElementById("emailError").classList.add("d-none");
+            }
+
+            // Mobile validation
+            if (!mobilePattern.test(mobile.value.trim())) {
+              document.getElementById("mobileError").classList.remove("d-none");
+              hasError = true;
+            } else {
+              document.getElementById("mobileError").classList.add("d-none");
+            }
+
+            // Message validation
+            if (message.value.trim().length < 10) {
+              document
+                .getElementById("messageError")
+                .classList.remove("d-none");
+              hasError = true;
+            } else {
+              document.getElementById("messageError").classList.add("d-none");
+            }
+
+            // Submit to Firestore
+            if (!hasError) {
+              const formData = {
+                name: name.value.trim(),
+                email: email.value.trim(),
+                mobile: mobile.value.trim(),
+                message: message.value.trim(),
+                timestamp: new Date().toISOString(),
+              };
+
+              try {
+                await addDoc(collection(db, "enquiry"), formData);
+                alert("Your message has been submitted successfully!");
+                form.reset();
+              } catch (error) {
+                console.error("Error submitting form: ", error);
+                alert("Something went wrong. Please try again later.");
+              }
+            }
+          });
         }
 
-        // Email validation
-        if (!emailPattern.test(email.value.trim())) {
-          document.getElementById("emailError").classList.remove("d-none");
-          hasError = true;
-        } else {
-          document.getElementById("emailError").classList.add("d-none");
-        }
+        // Newsletter signup handling
+        const newsletterBtn = document.getElementById("newsletterBtn");
+        const newsletterInput = document.getElementById("newsletterEmail");
+        const newsletterError = document.getElementById("newsletterError");
 
-        // Mobile validation
-        if (!mobilePattern.test(mobile.value.trim())) {
-          document.getElementById("mobileError").classList.remove("d-none");
-          hasError = true;
-        } else {
-          document.getElementById("mobileError").classList.add("d-none");
-        }
+        if (newsletterBtn && newsletterInput) {
+          newsletterBtn.addEventListener("click", async () => {
+            const email = newsletterInput.value.trim();
+            const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-        // Message validation
-        if (message.value.trim().length < 10) {
-          document.getElementById("messageError").classList.remove("d-none");
-          hasError = true;
-        } else {
-          document.getElementById("messageError").classList.add("d-none");
-        }
+            if (!emailPattern.test(email)) {
+              if (newsletterError) {
+                newsletterError.classList.remove("d-none");
+              } else {
+                alert("Please enter a valid email address.");
+              }
+              return;
+            } else {
+              if (newsletterError) {
+                newsletterError.classList.add("d-none");
+              }
+            }
 
-        // Submit to Firebase (optional)
-        if (!hasError) {
-          const formData = {
-            name: name.value.trim(),
-            email: email.value.trim(),
-            mobile: mobile.value.trim(),
-            message: message.value.trim(),
-            timestamp: new Date().toISOString(),
-          };
-
-          console.log("Form Data:", formData);
-
-          // Here you can push to Firebase (Firestore or RTDB)
+            try {
+              await addDoc(collection(db, "newsletter"), {
+                email: email,
+                timestamp: new Date().toISOString(),
+              });
+              alert("Thanks for subscribing!");
+              newsletterInput.value = "";
+            } catch (error) {
+              console.error("Newsletter submission failed:", error);
+              alert("Subscription failed. Please try again later.");
+            }
+          });
         }
       });
     </script>
