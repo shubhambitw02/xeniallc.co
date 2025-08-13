@@ -112,6 +112,11 @@
 .navbar-light .navbar-nav .nav-link {
   color: var(--dark);
   font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.menu-phn {
+  font-size: 0.9rem;
 }
 
 .navbar-light.sticky-top {
